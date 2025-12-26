@@ -1,5 +1,10 @@
 public class ExceptionExamples {
 
+    public static void main(String[] args) {
+        int a = Integer.parseInt("A");
+
+        System.out.println("End");
+    }
     /**
      * Tries to read an integer through the standard input
      * If an illegal argument is entered, returns 0
